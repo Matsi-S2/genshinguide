@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+.logo {
+    background-color: #bef3e1;
+    max-width: 135px;
+    height: auto;
+    margin-left: 55px;
+    
+   
+}
+.header{
+    background-color: #bef3e1;
+    display: flex;
+    gap: 100px;
+   line-height: 0px;
+}
+.header img {
+    height: 100%;
+    width: auto;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    align-items: center;
+    height: 100%;
+    font-size: 20px;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-inline: 10px;
+
+}   
+.menu-item a {
+    color:#023636;
+    text-decoration: none;
+}
+.menu-item.active a, .menu-item a:hover {
+    text-decoration: underline;
+
+}
+/****************************** INDEX *********************/
+.imageninicio {
+    background-image: url(../img/default.png);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.imageninicio h2 {
+    color: #ffffff;
+    background-color: rgba(80, 43, 0, 0.2);
+}
+.imageninicio p {
+    color: #bef3e1;
+}
+.roles {
+    background-color: #d4e9fcef;
+
+}
+.roles h2 {
+    color: cadetblue;
+    
+}
+.elementos {
+    background-color: #d4e9fcef;
+}
+.elementos h2 {
+    color: cadetblue;
+}
+.lista-de-elementos {
+    list-style-type: none;
+}
+.lista-de-elementos li {
+    display: flex;
+    align-items: center;
+}
+.lista-de-elementos li img {
+    margin-right: 0.2rem;
+    height: 1.5rem;
+    max-height: fit-content;
+}
+
+.elementos-explicacion {
+    background-color: #d4e9fcef;
+}
+.elementos-explicacion h2{
+    color:cadetblue;
+
+}
+.efectos img {
+    height: 1.1rem;
+    vertical-align: text-bottom;
+
+}
+.consonancia{
+    background-color: #d4e9fcef;
+}
+.consonancia h2 {
+    color: cadetblue;
+}
+
+.vientos {
+    color: #68dfcb;
+}
+.roca {
+    color: darkgoldenrod;
+}
+.llamas {
+    color: red;
+}
+.agua {
+    color: #2d82e2;
+}
+.voltaje {
+    color: #bb21bb;
+}
+.hielo {
+    color: skyblue;
+}
+.planta {
+    color: green;
+}
+.pie {
+ color: black;
+ background-color: #bef3e1;
+ text-align: center;
+ padding: 1rem;
+    
+}

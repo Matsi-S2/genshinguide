@@ -38,7 +38,11 @@
     align-items: center;
     height: 100%;
     font-size: 20px;
-}
+    }
+
+.menu.active {
+    display: flex;
+  }
 
 .menu-item {
     display: inline-block;
@@ -54,8 +58,11 @@
 
 }
 /****************************** INDEX *********************/
+
+
 .imageninicio {
     background-image: url(../img/default.png);
+    width: 100%;
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,6 +95,7 @@
 }
 .lista-de-elementos {
     list-style-type: none;
+    padding-left: 0rem;
 }
 .lista-de-elementos li {
     display: flex;
@@ -146,3 +154,121 @@
  padding: 1rem;
     
 }
+p {
+    margin-bottom: 0rem;
+}
+ul {
+    margin-bottom: 0rem;
+}
+.conjuntos {
+    background-color:#d4e9fcef;
+}
+.conjuntos img {
+    height: 5rem;
+}
+
+/* Media Queries */
+@media screen and (max-width: 908px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        line-height: 0px;
+        
+    
+    }
+  
+    .nav {
+        flex-direction: row;
+        align-items: center;
+    }
+    .menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        font-size: 16px;
+
+    }
+    .logo {
+        margin-left: 30px; 
+    }
+    .imageninicio h2 {
+        font-size: 20px;
+    }
+    
+
+}
+@media screen and (max-width: 762px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        line-height: 0px;
+    
+    }
+  
+    .nav {
+        flex-direction: row;
+        align-items: center;
+    }
+    .menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        font-size: 16px;
+
+    }
+    .logo {
+        margin-left: 15px; 
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 620px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        line-height: 0px;
+    
+    }
+  
+    .nav {
+        flex-direction: row;
+        align-items: center;
+        
+    }
+    .nav li {
+        display: inline-block; 
+        margin-right: 0.001px; 
+        margin-left: 0.001px;
+    }
+    .menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        font-size: 8px;
+        margin-right: 0.001px;
+        margin-left: 0.001px;
+
+    }
+    .logo {
+        margin-left: 10px;
+        max-width: 40px;
+    }
+    .conjuntos {
+        font-size: 10px;
+    }
+    .imageninicio{
+        font-size: 8px;
+    }
+
+}
+
+
+    
+     
+
+    
+

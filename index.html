@@ -15,28 +15,34 @@
   </head>
   <body>
     <header class="header">
-      <a href="./index.html">
+      <nav class="navbar navbar-expand-md navbar-custom">
+      <a class="navbar-brand" href="./index.html">
         <img
           class="logo"
           src="./img/genshin-impact-logo-genshin-impact-icon-transparent-free-png.webp"
-          alt="logo"
+          alt="logo" style="height: 120px;"
         />
       </a>
-      <nav class="nav">
-        <ul class="menu">
-          <li class="menu-item active"><a href="./index.html">Inicio</a></li>
-          <li class="menu-item">
-            <a href="pages/personajes.html">Personajes</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">Inicio</a>
           </li>
-          <li class="menu-item">
-            <a href="pages/artefactos.html">Artefactos</a>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/personajes.html">Personajes</a>
           </li>
-          <li class="menu-item">
-            <a href="pages/conjuntos.html">Conjuntos</a>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/artefactos.html">Artefactos</a>
           </li>
-          <li class="menu-item"><a href="pages/equipos.html">Equipos</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/conjuntos.html">Conjuntos</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="pages/equipos.html">Equipos</a></li>
         </ul>
-      
+      </div>
       </nav>
     </header>
     <main>

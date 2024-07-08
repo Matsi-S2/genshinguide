@@ -11,16 +11,17 @@
     max-width: 135px;
     height: auto;
     margin-left: 55px;
-    
-   
+       
 }
+
 .header{
     background-color: #bef3e1;
     display: flex;
     gap: 100px;
    line-height: 0px;
+   font-size: 20px;
 }
-.header img {
+.img {
     height: 100%;
     width: auto;
 }
@@ -166,7 +167,62 @@ ul {
 .conjuntos img {
     height: 5rem;
 }
+.artefactos {
+    background-color: #d4e9fcef;
+}
+.artefactos-secundarios {
+    background-color: #d4e9fcef;
+}
+.personajes {
+    background-color: #d4e9fcef;
+    
+}
+.personajes h1{
+    margin-bottom: 0;
+}
 
+.personajes-armado{
+    background-color: #d4e9fcef;
+}
+.personajes-armado h2 {
+    margin-bottom: 0;
+}
+.albedo-img{
+    max-width: 300px;
+}
+.xingchiu-img{
+    max-width: 270px;
+
+}
+.furina-img {
+    max-width: 300px;
+
+}
+.fischl-img{
+    max-width: 270px;
+
+}
+.bennet-img{
+    max-width: 250px;
+}
+.raiden-img{
+    max-width: 500px;
+
+}
+.arle-img{
+    max-width: 280px;
+}
+
+.equipos {
+    background-color: #d4e9fcef;
+}
+.furina-img-equipo {
+    max-width: 270px;
+}
+.nombre-personaje {
+    display: flex;
+    margin-left: 100px;
+}
 /* Media Queries */
 @media screen and (max-width: 908px) {
     .header {
@@ -223,6 +279,13 @@ ul {
     .logo {
         margin-left: 15px; 
     }
+    .equipo-item .col-md-3 {
+        flex: 0 0 50%; /* Cambiar el ancho de las columnas a 50% en dispositivos pequeños */
+        max-width: 50%;
+      }
+      .nombre-personaje {
+        margin-top: 5px; /* Ajustar el margen superior del nombre del personaje */
+      }
 }
 @media only screen and (min-width: 320px) and (max-width: 620px) {
     .header {
@@ -248,7 +311,7 @@ ul {
         flex-direction: row;
         align-items: center;
         gap: 10px;
-        font-size: 8px;
+        font-size: 16px;
         margin-right: 0.001px;
         margin-left: 0.001px;
 
@@ -258,10 +321,10 @@ ul {
         max-width: 40px;
     }
     .conjuntos {
-        font-size: 10px;
+        font-size: 16px;
     }
     .imageninicio{
-        font-size: 8px;
+        font-size: 16px;
     }
 
 }

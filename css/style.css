@@ -224,7 +224,7 @@ ul {
     margin-left: 100px;
 }
 /* Media Queries */
-@media screen and (max-width: 908px) {
+@media screen and (max-width: 1075px) {
     .header {
         display: flex;
         flex-direction: row;
@@ -252,10 +252,18 @@ ul {
     .imageninicio h2 {
         font-size: 20px;
     }
+    .equipo-img { 
+        max-width: 150px;
+
+    }
+    .nombre-personaje {
+        display: flex;
+        margin-left: 50px;
+    }
     
 
 }
-@media screen and (max-width: 762px) {
+@media screen and (max-width: 767px) {
     .header {
         display: flex;
         flex-direction: row;
@@ -285,6 +293,26 @@ ul {
       }
       .nombre-personaje {
         margin-top: 5px; /* Ajustar el margen superior del nombre del personaje */
+      }
+      .equipo-img {
+        max-width: 180px;
+      }
+      .navbar-brand {
+        margin-right: 28rem;
+      }
+      .personaje-item {
+        flex-direction: column;
+      }
+    
+      .personaje-item > .col-12 {
+        margin-bottom: 15px; /* Ajusta el margen según sea necesario */
+      }
+    
+      .personaje-item > .order-md-1 {
+        order: 1;
+      }
+      .personaje-item > .order-md-2 {
+        order: 2;
       }
 }
 @media only screen and (min-width: 320px) and (max-width: 620px) {
@@ -318,7 +346,7 @@ ul {
     }
     .logo {
         margin-left: 10px;
-        max-width: 40px;
+        max-width: 120px;
     }
     .conjuntos {
         font-size: 16px;
@@ -326,7 +354,16 @@ ul {
     .imageninicio{
         font-size: 16px;
     }
-
+    .equipo-img {
+        max-width: 100px;
+    }
+    .nombre-personaje {
+        display: flex;
+        margin-left: 25px;
+    }
+    .navbar-brand {
+        margin-right: 5rem;
+    }
 }
 
 

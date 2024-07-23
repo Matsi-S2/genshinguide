@@ -2,7 +2,7 @@
 // _estilos.scss
 
 $color-primario: #bef3e1;
-$color-segundario: #d4e9fcef;
+$color-secundario: #d4e9fcef;
 $color-texto: #023636;
 $color-titulo: cadetblue;
 
@@ -142,7 +142,7 @@ $color-titulo: cadetblue;
 .personajes,
 .personajes-armado,
 .equipos {
-    background-color: $color-segundario;
+    background-color: $color-secundario;
 
     h2 {
         color: $color-titulo;
